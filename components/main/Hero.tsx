@@ -1,3 +1,6 @@
+// "use client";
+
+import HeroContent from "@components/sub/HeroContent";
 import React from "react";
 
 const Hero = () => {
@@ -11,6 +14,7 @@ const Hero = () => {
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
+      <HeroContent />
     </div>
   );
 };
